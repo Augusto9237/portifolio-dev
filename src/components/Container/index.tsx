@@ -7,5 +7,7 @@ interface ContainerProps {
 }
 
 export function Container({ children }: ContainerProps) {
-  return <Content>{children}</Content>;
+  return (
+  <Content>{children}</Content>
+  );
 }

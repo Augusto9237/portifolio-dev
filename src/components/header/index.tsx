@@ -1,4 +1,3 @@
-import React from 'react';
 import react, { ReactNode } from 'react';
 import { Container, LogoImg, Sections } from './styles';
 import LogoSvg from '../../assets/logo.svg';
@@ -12,7 +11,11 @@ export function Header() {
     <Container>
       <LogoImg src={LogoSvg} />
       <Sections>
-        <span>Home</span>
+        <a>Home</a>
+        <a>Sobre mim</a>
+        <a>Portfólio</a>
+        <a>Skills</a>
+        <a>Contato</a>
       </Sections>
     </Container>
   );
