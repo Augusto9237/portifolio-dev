@@ -1,11 +1,19 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { Content } from '../Container/styles';
+import { Container, LogoImg, Sections } from './styles';
+import LogoSvg from '../../assets/logo.svg';
 
 interface HeaderProps {
   children: ReactNode;
 }
 
-export function Header({ children }: HeaderProps) {
-  return <Content>{children}</Content>;
+export function Header() {
+  return (
+    <Container>
+      <LogoImg src={LogoSvg} />
+      <Sections>
+        <span>Home</span>
+      </Sections>
+    </Container>
+  );
 }
