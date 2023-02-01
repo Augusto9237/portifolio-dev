@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Container } from './components/Container';
-import { Header } from './components/header';
+import { Header } from './components/Header';
+import { Home } from './sections/home';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ function App() {
   return (
     <Container>
       <Header />
+      <Home />
     </Container>
   );
 }
