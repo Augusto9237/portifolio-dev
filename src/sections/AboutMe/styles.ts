@@ -18,6 +18,7 @@ export const AboutMeDescription = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 920px;
+  gap: 24px;
 
   p {
     display: flex;
