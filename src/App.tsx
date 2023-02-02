@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Container } from './components/Container';
 import { Header } from './components/Header';
+import { AboutMe } from './sections/AboutMe';
 import { Experience } from './sections/Experience';
 import { Home } from './sections/Home';
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Home />
       <Experience />
+      <AboutMe />
     </Container>
   );
 }
