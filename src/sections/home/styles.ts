@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Content = styled.section`
 display: flex;
 flex-direction: row;
+margin: 20px 0px;
 `;
 
 export const Greetings = styled.div`
@@ -58,6 +59,7 @@ export const Contacts = styled.div`
  flex-direction: column;
  justify-content: center;
  align-items: flex-end;
+ color: rgba(123, 74, 226, 0.5);
 `;
 
 export const WhatsAppButton = styled.button`
@@ -68,4 +70,5 @@ border: 1px solid rgba(123, 74, 226, 0.5);
 border-radius: 16px;
 color: rgba(123, 74, 226, 0.5);
 padding: 14px;
+gap: 12px
 `;
