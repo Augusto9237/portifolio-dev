@@ -8,3 +8,4 @@ export const Content = styled.div`
     height: 100vh;
     gap: 60px;
   `;
+

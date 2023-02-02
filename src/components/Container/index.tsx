@@ -1,6 +1,6 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { Content } from '../Container/styles';
+import { Content, Footer } from '../Container/styles';
 
 interface ContainerProps {
   children: ReactNode;
@@ -8,6 +8,11 @@ interface ContainerProps {
 
 export function Container({ children }: ContainerProps) {
   return (
-  <Content>{children}</Content>
+    <Content>
+      {children}
+      <Footer>
+        
+      </Footer>
+    </Content>
   );
 }
