@@ -40,7 +40,7 @@ export function Home() {
       </AvatarContainer>
 
       <Contacts>
-        <span>Baixar CV </span>
+        <a>Baixar CV </a>
         <WhatsAppButton>
           <BsWhatsapp />
           <span>Vamos conversar</span>

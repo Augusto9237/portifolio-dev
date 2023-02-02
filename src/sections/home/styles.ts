@@ -60,6 +60,10 @@ export const Contacts = styled.div`
  justify-content: center;
  align-items: flex-end;
  color: rgba(123, 74, 226, 0.5);
+
+ a{
+   padding: 14px;
+ }
 `;
 
 export const WhatsAppButton = styled.button`
