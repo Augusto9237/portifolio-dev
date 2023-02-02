@@ -1,6 +1,6 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { BsGithub } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsDiscord } from 'react-icons/bs';
 import {
   Content,
   Greetings,
@@ -25,7 +25,9 @@ export function Home() {
         <span>Front-end developer · UI designer</span>
 
         <SocialMediaContainer>
-          <BsGithub />
+          <BsGithub color="#FFFFFF" />
+          <BsLinkedin color="#FFFFFF" />
+          <BsDiscord color="#FFFFFF" />
         </SocialMediaContainer>
       </Presentation>
     </Content>
