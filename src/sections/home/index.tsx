@@ -1,11 +1,13 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
 import { BsGithub, BsLinkedin, BsDiscord } from 'react-icons/bs';
+import AvatarAndIconsSvg from '../../assets/AvatarAndIcons.svg';
 import {
   Content,
   Greetings,
   Presentation,
   SocialMediaContainer,
+  AvatarContainer,
 } from './styles';
 
 interface ContainerProps {
@@ -30,6 +32,10 @@ export function Home() {
           <BsDiscord color="#FFFFFF" />
         </SocialMediaContainer>
       </Presentation>
+
+      <AvatarContainer>
+        <img src={AvatarAndIconsSvg} />
+      </AvatarContainer>
     </Content>
   );
 }

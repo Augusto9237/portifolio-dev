@@ -41,6 +41,10 @@ export const Presentation = styled.div`
 export const SocialMediaContainer = styled.div`
  display: flex;
  justify-content: space-between;
- max-width: 180px;
+ max-width: 130px;
  gap: 16px;
+`;
+
+export const AvatarContainer = styled.main`
+
 `;
