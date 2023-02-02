@@ -14,6 +14,7 @@ export const Card = styled.div`
   border-radius: 16px;
   color: #FFFFFF;
   align-items: center;
+  gap: 8px;
 
   strong{
     font-weight: 700;
