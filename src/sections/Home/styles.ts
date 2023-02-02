@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Content = styled.section`
 display: flex;
 flex-direction: row;
+justify-content: space-between;
 margin: 20px 0px;
 `;
 
@@ -21,6 +22,7 @@ export const Greetings = styled.div`
 
 export const Presentation = styled.div`
   display: flex;
+  width: 30%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
@@ -47,20 +49,19 @@ export const SocialMediaContainer = styled.div`
 `;
 
 export const AvatarContainer = styled.main`
- margin: 0px 20px;
  display: flex;
  flex: 1;
+ width: 100%;
  justify-content:center;
 `;
 
 export const Contacts = styled.div`
  display: flex;
- flex:1;
+ width: 30%;
  flex-direction: column;
  justify-content: center;
  align-items: flex-end;
  color: rgba(123, 74, 226, 0.5);
-
  a{
    padding: 14px;
  }
