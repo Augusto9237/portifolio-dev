@@ -46,5 +46,24 @@ export const SocialMediaContainer = styled.div`
 `;
 
 export const AvatarContainer = styled.main`
+ display: flex;
+ flex: 1;
+ justify-content:center;
+`;
 
+export const Contacts = styled.div`
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ justify-content: center;
+`;
+
+export const WhatsAppButton = styled.button`
+display: flex;
+max-width: 180px;
+background: transparent;
+border: 1px solid rgba(123, 74, 226, 0.5);
+border-radius: 16px;
+color: rgba(123, 74, 226, 0.5);
+padding: 14px;
 `;

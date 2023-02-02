@@ -1,6 +1,6 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { BsGithub, BsLinkedin, BsDiscord } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsDiscord, BsWhatsapp } from 'react-icons/bs';
 import AvatarAndIconsSvg from '../../assets/AvatarAndIcons.svg';
 import {
   Content,
@@ -8,6 +8,8 @@ import {
   Presentation,
   SocialMediaContainer,
   AvatarContainer,
+  Contacts,
+  WhatsAppButton,
 } from './styles';
 
 interface ContainerProps {
@@ -36,6 +38,14 @@ export function Home() {
       <AvatarContainer>
         <img src={AvatarAndIconsSvg} />
       </AvatarContainer>
+
+      <Contacts>
+        <span>Baixar CV </span>
+        <WhatsAppButton>
+          <BsWhatsapp />
+          Vamos conversar
+        </WhatsAppButton>
+      </Contacts>
     </Content>
   );
 }
