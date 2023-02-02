@@ -20,6 +20,14 @@ export const AboutMeDescription = styled.div`
   max-width: 920px;
   gap: 24px;
 
+  h1{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+  }
+
   p {
     display: flex;
     flex-direction: column;

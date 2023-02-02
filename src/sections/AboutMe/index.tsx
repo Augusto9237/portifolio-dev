@@ -8,6 +8,7 @@ export function AboutMe() {
       <CircleImg />
       <AboutMeDescription>
         <Greetings>🧐 Sobre mim</Greetings>
+        <h1>your name</h1>
         <p>
           <code>
             👋 Me chamo Washington Henrique Fernandes de Sousa, mas pode me

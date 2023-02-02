@@ -6,4 +6,5 @@ export const Content = styled.div`
     flex-direction: column;
     margin: 0px auto;
     height: 100vh;
+    gap: 60px;
   `;
