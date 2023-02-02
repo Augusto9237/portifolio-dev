@@ -4,6 +4,7 @@ export const Content = styled.section`
 display: flex;
 flex-direction: row;
 justify-content: center;
+gap: 60px;
 `;
 
 export const Card = styled.div`

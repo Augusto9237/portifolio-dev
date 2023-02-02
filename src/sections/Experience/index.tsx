@@ -9,6 +9,18 @@ export function Experience() {
         <span>3 anos como</span>
         <strong>Programador</strong>
       </Card>
+
+      <Card>
+        <BsCodeSlash size={60} color="#7B4AE2" />
+        <span>3 anos como</span>
+        <strong>Programador</strong>
+      </Card>
+
+      <Card>
+        <BsCodeSlash size={60} color="#7B4AE2" />
+        <span>3 anos como</span>
+        <strong>Programador</strong>
+      </Card>
     </Content>
   );
 }
