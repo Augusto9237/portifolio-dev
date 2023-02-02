@@ -19,21 +19,26 @@ export const Greetings = styled.div`
 `;
 
 export const Presentation = styled.div`
-display: flex;
-height: 100%;
-flex-direction: column;
-justify-content: center;
-gap: 20px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 
-h1{
-  font-weight: 800;
-  font-size: 52px;
-  line-height: 61px;
+  h1{
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 61px;
 
-  color: #FFFFFF;
-}
+    color: #FFFFFF;
+  }
 
-span{
-  color: rgba(255, 255, 255, 0.5);
-}
+  span{
+    color: rgba(255, 255, 255, 0.5);
+  }
+`;
+
+export const SocialMediaContainer = styled.div`
+ display: flex;
+ justify-content: space-between
 `;

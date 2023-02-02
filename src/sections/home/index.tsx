@@ -1,6 +1,12 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { Content, Greetings, Presentation } from './styles';
+import { BsGithub } from 'react-icons/bs';
+import {
+  Content,
+  Greetings,
+  Presentation,
+  SocialMediaContainer,
+} from './styles';
 
 interface ContainerProps {
   children: ReactNode;
@@ -17,6 +23,10 @@ export function Home() {
         <h1>your name,dev</h1>
 
         <span>Front-end developer · UI designer</span>
+
+        <SocialMediaContainer>
+          <BsGithub />
+        </SocialMediaContainer>
       </Presentation>
     </Content>
   );
