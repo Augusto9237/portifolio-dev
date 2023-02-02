@@ -12,10 +12,6 @@ import {
   WhatsAppButton,
 } from './styles';
 
-interface ContainerProps {
-  children: ReactNode;
-}
-
 export function Home() {
   return (
     <Content>
