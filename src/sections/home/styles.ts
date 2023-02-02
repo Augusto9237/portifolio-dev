@@ -46,6 +46,7 @@ export const SocialMediaContainer = styled.div`
 `;
 
 export const AvatarContainer = styled.main`
+ margin: 0px 20px;
  display: flex;
  flex: 1;
  justify-content:center;
@@ -53,9 +54,10 @@ export const AvatarContainer = styled.main`
 
 export const Contacts = styled.div`
  display: flex;
- flex: 1;
+ flex:1;
  flex-direction: column;
  justify-content: center;
+ align-items: flex-end;
 `;
 
 export const WhatsAppButton = styled.button`

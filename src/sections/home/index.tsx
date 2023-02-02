@@ -42,8 +42,7 @@ export function Home() {
       <Contacts>
         <span>Baixar CV </span>
         <WhatsAppButton>
-          <BsWhatsapp />
-          Vamos conversar
+          <BsWhatsapp /> Vamos conversar
         </WhatsAppButton>
       </Contacts>
     </Content>
