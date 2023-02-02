@@ -1,6 +1,6 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
-import { Content } from './styles';
+import { Content, Greetings, Presentation } from './styles';
 
 interface ContainerProps {
   children: ReactNode;
@@ -9,7 +9,15 @@ interface ContainerProps {
 export function Home() {
   return (
     <Content>
-      <h1>Name</h1>
+      <Presentation>
+        <Greetings>
+          <strong>👋 Saudações!</strong>
+        </Greetings>
+
+        <h1>your name,dev</h1>
+
+        <span>Front-end developer · UI designer</span>
+      </Presentation>
     </Content>
   );
 }
