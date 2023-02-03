@@ -1,7 +1,7 @@
 import React from 'react';
 import react, { ReactNode } from 'react';
 import { Greetings } from '../../sections/Home/styles';
-import { Container,SkillsContainer } from '../WorkCard/styles';
+import { Container, ImageCard, SkillsContainer } from '../WorkCard/styles';
 
 interface ContainerProps {
   children: ReactNode;
@@ -19,6 +19,10 @@ export function WorkCard() {
         <Greetings>React JS</Greetings>
         <Greetings>Typescript</Greetings>
       </SkillsContainer>
+
+      <ImageCard>
+        <img src="https://topfreewares.b-cdn.net/wp-content/uploads/2019/04/pomotroid.jpg" />
+      </ImageCard>
     </Container>
   );
 }

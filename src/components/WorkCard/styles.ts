@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     height: 460px;
-    padding: 20px;
+    padding: 30px;
     width: 360px;
     border-radius: 16px;
     border: 1px solid rgba(123, 74, 226, 0.5);
@@ -33,3 +33,14 @@ export const SkillsContainer = styled.div`
    display: flex;
    gap: 8px;
   `;
+
+export const ImageCard = styled.div`
+ display: flex;
+ flex: 1;
+ border-radius: 8px;
+ overflow: hidden;
+
+ img{
+   width: 100%;
+ }
+`;
