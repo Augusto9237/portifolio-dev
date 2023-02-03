@@ -35,12 +35,13 @@ export const SkillsContainer = styled.div`
   `;
 
 export const ImageCard = styled.div`
- display: flex;
- flex: 1;
- border-radius: 8px;
- overflow: hidden;
+    display: flex;
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
 
- img{
-   width: 100%;
- }
+    img{
+      width: 100%;
+    }
 `;
