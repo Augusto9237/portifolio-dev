@@ -12,3 +12,8 @@ h1{
   color: #FFFFFF;
 }
 `;
+
+export const WorkAndProjects = styled.div`
+display: flex;
+margin-top: 20px;
+`;
