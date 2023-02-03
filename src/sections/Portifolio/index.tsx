@@ -9,6 +9,9 @@ export function Portifolio() {
       <h1>Trabalhos e projetos</h1>
       <WorkAndProjects>
         <WorkCard/>
+        <WorkCard/>
+        <WorkCard/>
+        <WorkCard/>
       </WorkAndProjects>
     </Content>
   );

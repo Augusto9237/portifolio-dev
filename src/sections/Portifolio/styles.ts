@@ -16,4 +16,5 @@ h1{
 export const WorkAndProjects = styled.div`
 display: flex;
 margin-top: 20px;
+gap: 40px;
 `;
